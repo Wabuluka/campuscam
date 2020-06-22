@@ -13,7 +13,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- custom CSS -->
-    
+    <!-- ads -->
+    <script data-ad-client="ca-pub-1280356312756312" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- end of ads tag -->
     <!-- Custom styles for this template -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="<?php bloginfo('template_url')?>/css/style.css" rel="stylesheet" >
@@ -32,9 +34,9 @@
           </div>
       </div>
   </div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img src="https://campuscam.ug/wp-content/uploads/2019/12/campuscam_logo.png" width="80" height="50" alt="" loading="lazy">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,19 +46,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="https://campuscam.ug/category/campus-news/">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Personalities</a>
+                        <a class="nav-link" href="https://campuscam.ug/category/campus-personalities">Personalities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Lifestyle</a>
+                        <a class="nav-link" href="https://campuscam.ug/category/lifestyle">Lifestyle</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sex &amp; Relationships</a>
+                        <a class="nav-link" href="https://campuscam.ug/category/sex-relationships">Sex &amp; Relationships</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Career &amp; Internships</a>
+                        <a class="nav-link" href="https://campuscam.ug/category/internship">Career &amp; Internships</a>
                     </li>
                 </ul>
             </div>

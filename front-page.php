@@ -3,61 +3,56 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
-        <?php
-            $args = array(
-                    'posts_per_page' => 1,
-                    'post__in' => get_option( 'sticky_posts' ),
-                    'ignore_sticky_posts' => 1
-                );
-                $query = new WP_Query( $args );
-                
-                if ( $query -> have_posts() ) :
-                    while ($query ->  have_posts()) : $query ->  the_post(); ?>
-                    <!-- sticky post -->
-                        <?php if(has_post_thumbnail()):
-                            $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-                            <!-- sticky post div -->
-                            <?php
-                            echo '<div class="col-sm-12 front-sticky" style=
-                            "       background-image: linear-gradient(to top, rgba(70,70,70,0.5), rgba(10, 0, 0, 0.5)), url('.$url.');
-                                                           
-                            ">';
-                            endif ?>
-                                <!-- sticky post body -->
-                                <div class="row">
-                                <div class="sticky-body">
+            <div class="row">
+                <?php
+                    $args = array(
+                        'posts_per_page' => 3,
+                        'post__in' => get_option( 'sticky_posts' ),
+                        'ignore_sticky_posts' => 1
+                    );
+                    $query = new WP_Query( $args );
+                    
+                    if ( $query -> have_posts() ) :
+                        while ($query ->  have_posts()) : $query ->  the_post(); ?>
+                        <!-- sticky post -->
+                            <div class="col-sm-4">
+                                <?php if(has_post_thumbnail()):
+                                $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+                                <!-- sticky post div -->
+                                <?php
+                                echo '<div class="front-sticky" style=
+                                "       background-image: linear-gradient(to top, rgba(70,70,70,0.5), rgba(10, 0, 0, 0.5)), url('.$url.');
+                                                            
+                                ">';
+                                endif ?>
                                     <div class="row">
-                                        <div class="col-sm-8">
-                                            <span class="">
-                                            <?php
-                                            // Displaying only the first and main category for the post
-                                                $categories = get_the_category();
-                                                if(!empty($categories)){
-                                                    echo esc_html($categories[0]->name);
-                                                }
-                                            ?>
-                                        </span>
-                                        <span class="">
-                                            <?php 
-                                                echo meks_time_ago(); 
-                                            ?>
-                                        </span>
-                                        <h1>
-                                            <a href="<?php the_permalink();?>">
-                                                <?php 
-                                                    the_title();
-                                                ?>
-                                            </a>
-                                        </h1>
-                                        <p><?php the_excerpt();?></p>
+                                        <div class="col-sm-12">
+                                            <div class="sticky-content">
+                                                <!-- <span class=""> -->
+                                                    <?php
+                                                    // Displaying only the first and main category for the post
+                                                        // $categories = get_the_category();
+                                                        // if(!empty($categories)){
+                                                        //     echo esc_html($categories[0]->name);
+                                                        // }
+                                                    ?>
+                                                <!-- </span> -->
+                                                <!-- <span class=""> -->
+                                                    <?php 
+                                                        // echo meks_time_ago(); 
+                                                    ?>
+                                                <!-- </span> -->
+                                                <h5>
+                                                    <a href="<?php the_permalink();?>"><?php the_title();?></a>
+                                                </h5>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- end of sticky post body -->
                             </div>
-                                </div>
-                    <!-- emd of sticky post -->
-        <?php endwhile; endif;?>
+                        <!-- emd of sticky post -->
+                <?php endwhile; endif;?>
+            </div>
         </div>
     </div>
 </div>
@@ -266,7 +261,7 @@
                                 $args = array(
                                     'post_type' => 'post',
                                     'post_status' => 'publish',
-                                    'category_name' => 'campus-news',
+                                    'category_name' => 'featured',
                                     'posts_per_page' => 2,
                                 );
                                 $personality = new WP_Query( $args );
@@ -333,7 +328,7 @@
                                     ?>
                                     <div class="card mb-3" style="max-width: 100%;">
                                         <div class="row no-gutters">
-                                            <div class="col-4">
+                                            <div class="col-3">
                                             <?php if(has_post_thumbnail()):?>
                                                 <div class="tales-img">
                                                     <a href="<?php the_permalink()?>">    
@@ -342,10 +337,14 @@
                                                 </div>
                                             <?php endif ?>
                                             </div>
-                                            <div class="col-8">
+                                            <div class="col-9">
                                                 <div class="cardbody">
                                                     <h5 class="card-title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h5>
-                                                    <p class="card-text"><?php the_excerpt();?></p>
+                                                    <!-- <p class="card-text"> -->
+                                                        <?php 
+                                                            // the_excerpt();
+                                                        ?>
+                                                    <!-- </p> -->
                                                     <span><?php echo meks_time_ago(); ?></span>
                                                 </div>
                                             </div>
@@ -379,7 +378,7 @@
                                     ?>
                                     <div class="card mb-3" style="max-width: 100%;">
                                         <div class="row no-gutters">
-                                            <div class="col-4">
+                                            <div class="col-3">
                                             <?php if(has_post_thumbnail()):?>
                                                 <div class="tales-img">
                                                     <a href="<?php the_permalink()?>">    
@@ -388,10 +387,14 @@
                                                 </div>
                                             <?php endif ?>
                                             </div>
-                                            <div class="col-8">
+                                            <div class="col-9">
                                                 <div class="cardbody">
                                                     <h5 class="card-title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h5>
-                                                    <p class="card-text"><?php the_excerpt();?></p>
+                                                    <!-- <p class="card-text"> -->
+                                                        <?php 
+                                                        // the_excerpt();
+                                                        ?>
+                                                    <!-- </p> -->
                                                     <span><?php echo meks_time_ago(); ?></span>
                                                 </div>
                                             </div>
@@ -487,7 +490,7 @@
                             $args = array(
                                 'post_type' => 'post',
                                 'post_status' => 'publish',
-                                'category_name' => 'campus-news',
+                                'category_name' => 'featured',
                                 'posts_per_page' => 3,
                             );
                             $sex = new WP_Query( $args );
@@ -535,7 +538,7 @@
                             $args = array(
                                 'post_type' => 'post',
                                 'post_status' => 'publish',
-                                'category_name' => 'campus-news',
+                                'category_name' => 'featured',
                                 'posts_per_page' => 3,
                             );
                             $sex = new WP_Query( $args );

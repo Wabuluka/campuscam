@@ -1,0 +1,576 @@
+/* line 4, ../sass/_header.scss */
+nav ul li a {
+  font-weight: 900;
+  color: #333 !important; }
+/* line 13, ../sass/_header.scss */
+nav ul li a:hover {
+  color: #eb1a34 !important;
+  transition: 0.5s !important; }
+
+/* line 1, ../sass/_sticky.scss */
+.front-sticky {
+  margin-top: 10px;
+  height: 70vh;
+  background-size: cover;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); }
+  /* line 8, ../sass/_sticky.scss */
+  .front-sticky .sticky-body {
+    margin-top: 45vh;
+    padding: 10px; }
+    /* line 12, ../sass/_sticky.scss */
+    .front-sticky .sticky-body span {
+      font-weight: 300;
+      color: white;
+      padding-right: 10px; }
+    /* line 18, ../sass/_sticky.scss */
+    .front-sticky .sticky-body h1 {
+      font-size: 30px; }
+      /* line 21, ../sass/_sticky.scss */
+      .front-sticky .sticky-body h1 a {
+        color: white;
+        font-weight: 900;
+        line-height: 10px; }
+      /* line 26, ../sass/_sticky.scss */
+      .front-sticky .sticky-body h1 a:hover {
+        color: #eb1a34;
+        text-decoration: none;
+        transition: 0.5s; }
+    /* line 32, ../sass/_sticky.scss */
+    .front-sticky .sticky-body p {
+      margin-top: -10px;
+      color: white;
+      font-weight: 500; }
+
+@media screen and (max-width: 992px) {
+  /* line 41, ../sass/_sticky.scss */
+  .front-sticky {
+    margin-top: 0px;
+    height: 40vh;
+    background-size: 100% 100%; }
+    /* line 46, ../sass/_sticky.scss */
+    .front-sticky .sticky-body {
+      margin-top: 20vh; }
+      /* line 49, ../sass/_sticky.scss */
+      .front-sticky .sticky-body h1 {
+        font-size: 20px;
+        line-height: normal; }
+        /* line 52, ../sass/_sticky.scss */
+        .front-sticky .sticky-body h1 a {
+          color: white;
+          font-weight: 700;
+          background-color: rgba(235, 26, 52, 0.5);
+          line-height: 27px; }
+        /* line 59, ../sass/_sticky.scss */
+        .front-sticky .sticky-body h1 a:hover {
+          color: #061ebc;
+          text-decoration: none; }
+      /* line 64, ../sass/_sticky.scss */
+      .front-sticky .sticky-body p {
+        display: none; } }
+/* line 1, ../sass/_latest.scss */
+#latest {
+  margin-top: 20px; }
+  /* line 4, ../sass/_latest.scss */
+  #latest .latest-heading span {
+    padding: 10px;
+    background-color: #eb1a34;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 700; }
+  /* line 13, ../sass/_latest.scss */
+  #latest h5 {
+    font-size: .8em; }
+  /* line 18, ../sass/_latest.scss */
+  #latest .latests .card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 2px; }
+    /* line 24, ../sass/_latest.scss */
+    #latest .latests .card span {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: .7em; }
+    /* line 29, ../sass/_latest.scss */
+    #latest .latests .card h3 {
+      font-size: .8em; }
+      /* line 32, ../sass/_latest.scss */
+      #latest .latests .card h3 a {
+        color: black;
+        font-weight: 800; }
+
+/* line 1, ../sass/_campusnews.scss */
+#campus-news {
+  min-height: 20vh; }
+  /* line 5, ../sass/_campusnews.scss */
+  #campus-news .campus-news-heading span {
+    padding: 10px;
+    background-color: #eb1a34;
+    margin-top: 50px;
+    color: white;
+    font-weight: 700; }
+  /* line 14, ../sass/_campusnews.scss */
+  #campus-news .card {
+    padding: 0 !important;
+    min-height: 80px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0; }
+    /* line 20, ../sass/_campusnews.scss */
+    #campus-news .card .card-img {
+      height: 100%; }
+      /* line 22, ../sass/_campusnews.scss */
+      #campus-news .card .card-img img {
+        width: 100%;
+        height: 100%; }
+    /* line 27, ../sass/_campusnews.scss */
+    #campus-news .card .cardbody {
+      padding-left: 5px; }
+      /* line 29, ../sass/_campusnews.scss */
+      #campus-news .card .cardbody h5 {
+        font-size: .9em;
+        padding-top: 10px; }
+        /* line 32, ../sass/_campusnews.scss */
+        #campus-news .card .cardbody h5 a {
+          color: black;
+          font-weight: 800; }
+      /* line 37, ../sass/_campusnews.scss */
+      #campus-news .card .cardbody span {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: .7em; }
+
+/* line 1, ../sass/_frontone.scss */
+#front-one {
+  min-height: 50vh; }
+  /* line 8, ../sass/_frontone.scss */
+  #front-one .lifestyle .lifestyle-heading span {
+    font-weight: 800;
+    color: #eb1a34; }
+  /* line 14, ../sass/_frontone.scss */
+  #front-one .lifestyle .card {
+    padding: 0 !important;
+    min-height: 80px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0; }
+    /* line 19, ../sass/_frontone.scss */
+    #front-one .lifestyle .card .card-img {
+      height: 100%; }
+      /* line 21, ../sass/_frontone.scss */
+      #front-one .lifestyle .card .card-img img {
+        width: 100%;
+        height: 100%; }
+    /* line 26, ../sass/_frontone.scss */
+    #front-one .lifestyle .card .cardbody {
+      padding-left: 5px; }
+      /* line 28, ../sass/_frontone.scss */
+      #front-one .lifestyle .card .cardbody h5 {
+        font-size: .9em;
+        padding-top: 10px; }
+        /* line 31, ../sass/_frontone.scss */
+        #front-one .lifestyle .card .cardbody h5 a {
+          color: black;
+          font-weight: 700; }
+      /* line 36, ../sass/_frontone.scss */
+      #front-one .lifestyle .card .cardbody span {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: .7em; }
+  /* line 47, ../sass/_frontone.scss */
+  #front-one .featured .featured-heading span {
+    font-weight: 800;
+    color: #eb1a34; }
+  /* line 52, ../sass/_frontone.scss */
+  #front-one .featured .featured-post {
+    height: 43vh;
+    background-size: 100% 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); }
+    /* line 57, ../sass/_frontone.scss */
+    #front-one .featured .featured-post .featuredbody {
+      margin-top: 30vh;
+      color: white;
+      padding: 10px; }
+      /* line 62, ../sass/_frontone.scss */
+      #front-one .featured .featured-post .featuredbody h5 {
+        font-size: 1.5em; }
+        /* line 64, ../sass/_frontone.scss */
+        #front-one .featured .featured-post .featuredbody h5 a {
+          color: white;
+          font-weight: 900; }
+        /* line 68, ../sass/_frontone.scss */
+        #front-one .featured .featured-post .featuredbody h5 a:hover {
+          color: #eb1a34;
+          text-decoration: none;
+          transition: 0.5s; }
+      /* line 74, ../sass/_frontone.scss */
+      #front-one .featured .featured-post .featuredbody span {
+        background-color: rgba(235, 26, 52, 0.6);
+        font-size: .7em;
+        padding: 5px; }
+  /* line 86, ../sass/_frontone.scss */
+  #front-one .personalities .perosnality-heading span {
+    font-weight: 800;
+    color: #eb1a34; }
+  /* line 91, ../sass/_frontone.scss */
+  #front-one .personalities .card {
+    padding: 0 !important;
+    min-height: 80px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0; }
+    /* line 97, ../sass/_frontone.scss */
+    #front-one .personalities .card .card-img-top img {
+      width: 100%;
+      height: 100%; }
+    /* line 103, ../sass/_frontone.scss */
+    #front-one .personalities .card .cardbody {
+      padding-left: 5px; }
+      /* line 105, ../sass/_frontone.scss */
+      #front-one .personalities .card .cardbody h5 {
+        font-size: .9em;
+        padding-top: 10px; }
+        /* line 108, ../sass/_frontone.scss */
+        #front-one .personalities .card .cardbody h5 a {
+          color: black;
+          font-weight: 700; }
+      /* line 113, ../sass/_frontone.scss */
+      #front-one .personalities .card .cardbody span {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: .7em; }
+
+@media screen and (max-width: 992px) {
+  /* line 128, ../sass/_frontone.scss */
+  .featured .featured-post {
+    height: 30vh !important;
+    background-size: 100% 100%; }
+    /* line 133, ../sass/_frontone.scss */
+    .featured .featured-post .featuredbody {
+      margin-top: 10vh !important;
+      color: white;
+      padding: 10px; } }
+/* line 2, ../sass/_frontwo.scss */
+#front-two .tales {
+  min-height: 30vh; }
+  /* line 6, ../sass/_frontwo.scss */
+  #front-two .tales .tales-heading span {
+    font-weight: 800; }
+  /* line 11, ../sass/_frontwo.scss */
+  #front-two .tales .card {
+    padding: 0 !important;
+    min-height: 80px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0; }
+    /* line 16, ../sass/_frontwo.scss */
+    #front-two .tales .card .tales-img {
+      height: 100%; }
+      /* line 18, ../sass/_frontwo.scss */
+      #front-two .tales .card .tales-img img {
+        width: 100%;
+        height: 100%; }
+    /* line 23, ../sass/_frontwo.scss */
+    #front-two .tales .card .cardbody {
+      padding-left: 5px; }
+      /* line 25, ../sass/_frontwo.scss */
+      #front-two .tales .card .cardbody h5 {
+        font-size: 1.3em;
+        padding-top: 10px; }
+        /* line 28, ../sass/_frontwo.scss */
+        #front-two .tales .card .cardbody h5 a {
+          color: black;
+          font-weight: 700; }
+      /* line 33, ../sass/_frontwo.scss */
+      #front-two .tales .card .cardbody p {
+        margin-top: -10px;
+        font-size: .9em;
+        padding-left: 0px; }
+      /* line 38, ../sass/_frontwo.scss */
+      #front-two .tales .card .cardbody span {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: .7em; }
+/* line 47, ../sass/_frontwo.scss */
+#front-two .intern {
+  min-height: 30vh; }
+  /* line 51, ../sass/_frontwo.scss */
+  #front-two .intern .intern-heading span {
+    font-weight: 800; }
+  /* line 56, ../sass/_frontwo.scss */
+  #front-two .intern .card {
+    padding: 0 !important;
+    min-height: 80px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0; }
+    /* line 61, ../sass/_frontwo.scss */
+    #front-two .intern .card .tales-img {
+      height: 100%; }
+      /* line 63, ../sass/_frontwo.scss */
+      #front-two .intern .card .tales-img img {
+        width: 100%;
+        height: 100%; }
+    /* line 68, ../sass/_frontwo.scss */
+    #front-two .intern .card .cardbody {
+      padding-left: 5px; }
+      /* line 70, ../sass/_frontwo.scss */
+      #front-two .intern .card .cardbody h5 {
+        font-size: 1.3em;
+        padding-top: 10px; }
+        /* line 73, ../sass/_frontwo.scss */
+        #front-two .intern .card .cardbody h5 a {
+          color: black;
+          font-weight: 700; }
+      /* line 78, ../sass/_frontwo.scss */
+      #front-two .intern .card .cardbody p {
+        margin-top: -10px;
+        font-size: .9em;
+        padding-left: 0px; }
+      /* line 83, ../sass/_frontwo.scss */
+      #front-two .intern .card .cardbody span {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: .7em; }
+
+/* line 3, ../sass/_fronthree.scss */
+#front-three .editors .card {
+  height: 55vh;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0; }
+  /* line 7, ../sass/_fronthree.scss */
+  #front-three .editors .card .card-editor-content {
+    margin-top: 150px; }
+    /* line 9, ../sass/_fronthree.scss */
+    #front-three .editors .card .card-editor-content h4 {
+      padding-left: 10px; }
+      /* line 11, ../sass/_fronthree.scss */
+      #front-three .editors .card .card-editor-content h4 a {
+        color: #f7f7f7; }
+    /* line 15, ../sass/_fronthree.scss */
+    #front-three .editors .card .card-editor-content p {
+      margin-top: -10px;
+      padding-left: 10px;
+      color: #f7f7f7;
+      padding-right: 15px; }
+    /* line 21, ../sass/_fronthree.scss */
+    #front-three .editors .card .card-editor-content span {
+      margin-left: 10px;
+      background: rgba(235, 26, 52, 0.5);
+      padding: 5px;
+      color: #f7f7f7;
+      font-size: 11px; }
+/* line 36, ../sass/_fronthree.scss */
+#front-three .sex .sex-heading span {
+  font-weight: 800;
+  color: #eb1a34; }
+/* line 41, ../sass/_fronthree.scss */
+#front-three .sex .card {
+  padding: 0 !important;
+  min-height: 80px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0; }
+  /* line 46, ../sass/_fronthree.scss */
+  #front-three .sex .card .card-img {
+    height: 100%; }
+    /* line 48, ../sass/_fronthree.scss */
+    #front-three .sex .card .card-img img {
+      width: 100%;
+      height: 100%; }
+  /* line 53, ../sass/_fronthree.scss */
+  #front-three .sex .card .cardbody {
+    padding-left: 5px; }
+    /* line 55, ../sass/_fronthree.scss */
+    #front-three .sex .card .cardbody h5 {
+      font-size: .9em;
+      padding-top: 10px; }
+      /* line 58, ../sass/_fronthree.scss */
+      #front-three .sex .card .cardbody h5 a {
+        color: black;
+        font-weight: 700; }
+    /* line 63, ../sass/_fronthree.scss */
+    #front-three .sex .card .cardbody span {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: .7em; }
+/* line 74, ../sass/_fronthree.scss */
+#front-three .entertainment .entertainment-heading span {
+  font-weight: 800;
+  color: #eb1a34; }
+/* line 79, ../sass/_fronthree.scss */
+#front-three .entertainment .card {
+  padding: 0 !important;
+  min-height: 80px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0; }
+  /* line 84, ../sass/_fronthree.scss */
+  #front-three .entertainment .card .card-img {
+    height: 100%; }
+    /* line 86, ../sass/_fronthree.scss */
+    #front-three .entertainment .card .card-img img {
+      width: 100%;
+      height: 100%; }
+  /* line 91, ../sass/_fronthree.scss */
+  #front-three .entertainment .card .cardbody {
+    padding-left: 5px; }
+    /* line 93, ../sass/_fronthree.scss */
+    #front-three .entertainment .card .cardbody h5 {
+      font-size: .9em;
+      padding-top: 10px; }
+      /* line 96, ../sass/_fronthree.scss */
+      #front-three .entertainment .card .cardbody h5 a {
+        color: black;
+        font-weight: 700; }
+    /* line 101, ../sass/_fronthree.scss */
+    #front-three .entertainment .card .cardbody span {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: .7em; }
+
+@media screen and (max-width: 992px) {
+  /* line 112, ../sass/_fronthree.scss */
+  #front-three .editors .card {
+    height: 40vh !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    /* line 115, ../sass/_fronthree.scss */
+    #front-three .editors .card .card-editor-content {
+      margin-top: 90px !important; }
+      /* line 117, ../sass/_fronthree.scss */
+      #front-three .editors .card .card-editor-content h4 {
+        font-size: 20px !important; }
+      /* line 120, ../sass/_fronthree.scss */
+      #front-three .editors .card .card-editor-content p {
+        display: none; }
+      /* line 123, ../sass/_fronthree.scss */
+      #front-three .editors .card .card-editor-content span {
+        font-size: 10px;
+        color: #f3eced;
+        border-radius: 4px;
+        font-weight: 500;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; } }
+/* line 1, ../sass/_footer.scss */
+footer {
+  margin-top: 10px;
+  color: white;
+  background: #333;
+  min-height: 50px; }
+
+/* line 2, ../sass/_single.scss */
+#single .heading {
+  margin-top: 15px; }
+  /* line 4, ../sass/_single.scss */
+  #single .heading h3 {
+    font-size: 20px; }
+/* line 13, ../sass/_single.scss */
+#single .meta .col-4 span a {
+  color: #eb1a34;
+  text-align: right !important; }
+  /* line 17, ../sass/_single.scss */
+  #single .meta .col-4 span a .fa {
+    font-size: 20px; }
+/* line 21, ../sass/_single.scss */
+#single .meta .col-4 span a:hover {
+  text-decoration: none; }
+/* line 28, ../sass/_single.scss */
+#single .single-featured-img img {
+  width: 100%;
+  height: 500px; }
+/* line 34, ../sass/_single.scss */
+#single .content img {
+  width: 100%; }
+/* line 39, ../sass/_single.scss */
+#single .category span {
+  background-color: #eb1a34;
+  font-size: .7em;
+  padding: 5px;
+  margin-right: 5px; }
+  /* line 45, ../sass/_single.scss */
+  #single .category span a {
+    color: #fff;
+    font-weight: 600; }
+  /* line 49, ../sass/_single.scss */
+  #single .category span a:hover {
+    text-decoration: none; }
+/* line 55, ../sass/_single.scss */
+#single .tags span {
+  background-color: #eb1a34;
+  font-size: .7em;
+  padding: 5px;
+  margin-right: 5px; }
+  /* line 61, ../sass/_single.scss */
+  #single .tags span a {
+    color: #fff;
+    font-weight: 600; }
+  /* line 65, ../sass/_single.scss */
+  #single .tags span a:hover {
+    text-decoration: none; }
+/* line 74, ../sass/_single.scss */
+#single .related .heading span {
+  font-weight: 800;
+  color: #eb1a34; }
+/* line 79, ../sass/_single.scss */
+#single .related .card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0;
+  min-height: 200px; }
+  /* line 85, ../sass/_single.scss */
+  #single .related .card .card-img-top img {
+    width: 100%;
+    height: 100%; }
+  /* line 90, ../sass/_single.scss */
+  #single .related .card .cardbody {
+    padding-left: 5px; }
+    /* line 92, ../sass/_single.scss */
+    #single .related .card .cardbody h5 {
+      font-size: .9em;
+      padding-top: 10px; }
+      /* line 95, ../sass/_single.scss */
+      #single .related .card .cardbody h5 a {
+        color: black;
+        font-weight: 700; }
+    /* line 100, ../sass/_single.scss */
+    #single .related .card .cardbody span {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: .7em; }
+/* line 112, ../sass/_single.scss */
+#single .single-post-sidebar .latest .heading span {
+  font-weight: 700;
+  font-size: 25px; }
+/* line 118, ../sass/_single.scss */
+#single .single-post-sidebar .latest .card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); }
+  /* line 121, ../sass/_single.scss */
+  #single .single-post-sidebar .latest .card .col-4 img {
+    width: 100%;
+    height: 100%; }
+  /* line 127, ../sass/_single.scss */
+  #single .single-post-sidebar .latest .card .col-8 .cardbody {
+    padding-left: 5px;
+    padding-right: 5px; }
+    /* line 130, ../sass/_single.scss */
+    #single .single-post-sidebar .latest .card .col-8 .cardbody h3 {
+      font-size: .8em; }
+      /* line 132, ../sass/_single.scss */
+      #single .single-post-sidebar .latest .card .col-8 .cardbody h3 a {
+        color: black;
+        font-weight: 800; }
+
+@media screen and (max-width: 992px) {
+  /* line 146, ../sass/_single.scss */
+  #single .single-featured-img img {
+    width: 100%;
+    height: 200px; } }
+/* line 1, ../sass/_category.scss */
+#category {
+  min-height: 90vh; }
+  /* line 4, ../sass/_category.scss */
+  #category .cats .card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0; }
+    /* line 9, ../sass/_category.scss */
+    #category .cats .card .card-img-top img {
+      width: 100%;
+      height: 100%; }
+    /* line 14, ../sass/_category.scss */
+    #category .cats .card .cardbody {
+      padding-left: 5px; }
+      /* line 16, ../sass/_category.scss */
+      #category .cats .card .cardbody h5 {
+        font-size: .9em;
+        padding-top: 10px; }
+        /* line 19, ../sass/_category.scss */
+        #category .cats .card .cardbody h5 a {
+          color: black;
+          font-weight: 700; }
+      /* line 24, ../sass/_category.scss */
+      #category .cats .card .cardbody span {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: .7em; }

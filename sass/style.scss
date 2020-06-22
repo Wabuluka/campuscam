@@ -1,0 +1,20 @@
+@import '_header';
+@import '_sticky';
+@import '_latest';
+@import '_campusnews';
+@import '_frontone';
+@import '_frontwo';
+@import '_fronthree';
+@import '_footer';
+
+
+@import '_single';
+@import '_category';
+@import '_tags';
+@import '_author';
+
+body{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}

@@ -1,0 +1,136 @@
+#front-three{
+    .editors{
+        .card{
+            height: 40vh;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 0;
+            .card-editor-content{
+                margin-top: 150px;
+                h4{
+                    padding-left: 10px;
+                    a{
+                        color: rgb(247, 247, 247);
+                    }
+                }
+                p{
+                    margin-top: -10px;
+                    padding-left: 10px;
+                    color: rgb(247, 247, 247);
+                    padding-right: 15px;
+                }
+                span{
+                    margin-left: 10px;
+                    background: rgba(235, 26, 52, 0.5);
+                    padding: 5px;
+                    color: rgb(247, 247, 247);
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+
+
+    // sex
+    .sex{
+        .sex-heading{
+            span{
+                font-weight: 800;
+                color: rgb(235, 26, 52);
+            }
+        }
+        .card{
+            padding: 0 !important;
+            min-height: 80px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 0;
+            .card-img{
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .cardbody{
+                padding-left: 5px;
+                h5{
+                    font-size: .9em;
+                    padding-top: 10px;
+                    a{
+                        color: rgb(0, 0, 0);
+                        font-weight: 500;
+                    }
+                }
+                span{
+                    color: rgba(0, 0, 0, 0.6);
+                    font-size: .7em;
+                }
+            }
+        }
+    }
+
+    // entertainment
+    .entertainment{
+        .entertainment-heading{
+            span{
+                font-weight: 800;
+                color: rgb(235, 26, 52);
+            }
+        }
+        .card{
+            padding: 0 !important;
+            min-height: 80px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 0;
+            .card-img{
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .cardbody{
+                padding-left: 5px;
+                h5{
+                    font-size: .9em;
+                    padding-top: 10px;
+                    a{
+                        color: rgb(0, 0, 0);
+                        font-weight: 500;
+                    }
+                }
+                span{
+                    color: rgba(0, 0, 0, 0.6);
+                    font-size: .7em;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    #front-three{
+        .editors{
+            .card{
+                height: 40vh !important;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                .card-editor-content{
+                    margin-top: 90px !important;
+                    h4{
+                        font-size: 20px !important;
+                    }
+                    p{
+                        display: none;
+                    }
+                    span{
+                        font-size: 10px;
+                        color: rgb(243, 236, 237);
+                        border-radius: 4px;
+                        font-weight: 500;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                    }
+                }
+            }
+        }
+
+    }
+}

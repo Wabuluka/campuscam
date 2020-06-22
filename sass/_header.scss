@@ -1,0 +1,19 @@
+nav{
+    ul{
+        li{
+            a{
+                font-weight: 900;
+                color: #333 !important;
+            }
+        }
+    }
+
+    ul{
+        li{
+            a:hover{
+               color: rgb(235, 26, 52) !important;
+               transition: 0.5s !important;
+            }
+        }
+    }
+}

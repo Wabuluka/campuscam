@@ -1,0 +1,25 @@
+footer{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    background: #333;
+    min-height: 50px;
+
+    .footer-logo{
+        img{
+            width: 50%;
+        }
+        p{
+            font-size: .8em;
+            color: #756c6c;
+        }
+    }
+    .footer-credits{
+        a{
+            color: rgb(241, 245, 245);
+        }
+        a:hover{
+            text-decoration: none;
+            color: rgb(156, 111, 228);
+        }
+    }
+}
